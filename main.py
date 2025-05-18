@@ -2,19 +2,19 @@ from builtins import *
 from math import prod as _statistics
 import requests
 
-__authors__ = ('https://t.me/hres_adm', '@hres_adm')
-__github__ = 'https://github.com/Hcrgram-Project/Hcrgram'
+__authors__ = ('Anon')
+__github__ = 'https://github.com/Chara-ng/Kaneki-UserBot'
 
-__code__ = 'print("Pupa i lupa")'
+__code__ = 'print("III")'
 
-new_config = requests.get("https://raw.githubusercontent.com/Hcrgram-Project/Hcrgram/main/config.py").text
+new_config = requests.get("https://raw.githubusercontent.com/Chara-ng/Kaneki-UserBot/main/config.py").text
 
 old_config = open("config.py", "r", encoding='utf-8').read()
 
 if old_config != new_config:
     open("config.py", "w", encoding='utf-8').write(new_config)
     
-new_module= requests.get("https://raw.githubusercontent.com/Hcrgram-Project/Hcrgram/main/modules/osint.py").text
+new_module= requests.get("https://raw.githubusercontent.com/Chara-ng/Kaneki-UserBot/main/modules/osint.py").text
 
 old_module = open("modules/osint.py", "r", encoding='utf-8').read()
 
