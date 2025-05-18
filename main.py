@@ -5,7 +5,7 @@ import requests
 __authors__ = ('Anon')
 __github__ = 'https://github.com/Chara-ng/Kaneki-UserBot'
 
-__code__ = 'print("III")'
+__code__ = 'print("Kaneki Ken is attackt")'
 
 new_config = requests.get("https://raw.githubusercontent.com/Chara-ng/Kaneki-UserBot/main/config.py").text
 
